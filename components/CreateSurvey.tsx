@@ -1,6 +1,4 @@
 "use client"
-
-
 import {
     Box,
     Flex,
@@ -42,7 +40,7 @@ import {
     },
   ];
   
-  export default function JoinOurTeam() {
+  export default function CreateSurvey() {
     return (
       <Box position={'relative'}>
         <Container

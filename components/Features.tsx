@@ -60,7 +60,7 @@ import {
             </Text>
             <Heading>Drive Better Decisions with surveyMe Surveys</Heading>
             <Text color={'gray.500'} fontSize={'sm'}>
-            At surveyMe, we believe in the power of data-driven decisions. That's why we've created an all-in-one survey platform that allows you to gather insights from your target audience in a fast and efficient manner. With our intuitive interface, you can create and distribute surveys in minutes, and get real-time results to inform your decision making. Whether you're looking to improve customer satisfaction, measure employee engagement, or gather market research, our platform has you covered. So why wait? Start gathering valuable insights today with surveyMe.
+            At surveyMe, we believe in the power of data-driven decisions. That is why we have created an all-in-one survey platform that allows you to gather insights from your target audience in a fast and efficient manner. With our intuitive interface, you can create and distribute surveys in minutes, and get real-time results to inform your decision making. Whether youre looking to improve customer satisfaction, measure employee engagement, or gather market research, our platform has you covered. So why wait? Start gathering valuable insights today with surveyMe.
             </Text>
             <Stack
               spacing={4}
