@@ -11,7 +11,6 @@ import {
     SimpleGrid,
     Avatar,
     AvatarGroup,
-    useBreakpointValue,
     IconProps,
     Icon,
     FormLabel
@@ -98,8 +97,8 @@ import {
                 bg={'gray.800'}
                 color={'white'}
                 rounded={'full'}
-                minWidth={useBreakpointValue({ base: '44px', md: '60px' })}
-                minHeight={useBreakpointValue({ base: '44px', md: '60px' })}
+                minWidth={({ base: '44px', md: '60px' })}
+                minHeight={({ base: '44px', md: '60px' })}
                 position={'relative'}
                 _before={{
                   content: '""',
@@ -204,8 +203,8 @@ import {
   export const Blur = (props: IconProps) => {
     return (
       <Icon
-        width={useBreakpointValue({ base: '100%', md: '40vw', lg: '30vw' })}
-        zIndex={useBreakpointValue({ base: -1, md: -1, lg: 0 })}
+        width={({ base: '100%', md: '40vw', lg: '30vw' })}
+        zIndex={({ base: -1, md: -1, lg: 0 })}
         height="560px"
         viewBox="0 0 528 560"
         fill="none"
