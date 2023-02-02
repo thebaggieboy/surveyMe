@@ -32,14 +32,16 @@ import {
           </Text>
           <Stack spacing={6} direction={'row'}>
             <Button
+            as={"a"}
               rounded={'full'}
               px={6}
               colorScheme={'orange'}
               bg={'orange.400'}
+              href="/create_survey"
               _hover={{ bg: 'orange.500' }}>
               Create Survey
             </Button>
-            <Button rounded={'full'} px={6}>
+            <Button as={"a"} rounded={'full'} px={6} href="/explore_survey">
               Explore
             </Button>
           </Stack>
