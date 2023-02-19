@@ -33,15 +33,7 @@ export default function ExploreSurvey() {
           <Heading color={'black'} fontSize={'2xl'} noOfLines={1}>
             Do you like surveyMe?
           </Heading>
-          <Text fontSize={'sm'} fontWeight={'semibold'}>
-              533 answers
-            </Text>
-            <Text fontSize={'sm'} fontWeight={''}>
-              Yes - 400
-            </Text>
-            <Text fontSize={'sm'} fontWeight={''}>
-              No - 133
-            </Text>
+        
         
         </Box>
         <HStack borderTop={'1px'} color="black">
