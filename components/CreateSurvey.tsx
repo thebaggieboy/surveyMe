@@ -82,10 +82,13 @@ import { useRouter } from 'next/router'
         setLastChoice(formData?.last_choice)
         console.log("Current Last Choice: ", lastChoice)
       }
-      addSurvey()
+   
 
     }
 
+    const submit =()=>{
+      addSurvey()
+    }
 
     const inputChangeHandler = (e) => {
       const { name, value } = e.target
@@ -227,6 +230,7 @@ import { useRouter } from 'next/router'
                 w={'full'}
                 bgGradient="linear(to-r, red.400,orange.400)"
                 color={'white'}
+                onClick={addSurvey}
                 _hover={{
                   bgGradient: 'linear(to-r, red.400,orange.400)',
                   boxShadow: 'xl',
