@@ -84,10 +84,11 @@ import {
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
-              bg={'pink.400'}
+              bg={'orange.400'}
               href="signup"
               _hover={{
-                bg: 'pink.300',
+                bg: 'orange.300',
+                color:'black'
               }}>
               Sign Up
             </Button>
@@ -156,12 +157,12 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('orange.400', 'white') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .3s ease'}
-              _groupHover={{ color: 'pink.400' }}
+              _groupHover={{ color: 'white' }}
               fontWeight={500}>
               {label}
             </Text>
@@ -171,11 +172,11 @@ import {
             transition={'all .3s ease'}
             transform={'translateX(-10px)'}
             opacity={0}
-            _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
+            _groupHover={{ opacity: '100%', transform: 'translateX(0)',  color: 'white' }}
             justify={'flex-end'}
             align={'center'}
             flex={1}>
-            <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+            <Icon color={'white'} w={5} h={5} as={ChevronRightIcon} />
           </Flex>
         </Stack>
       </Link>
